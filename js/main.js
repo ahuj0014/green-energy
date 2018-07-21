@@ -3,17 +3,17 @@ var buttons = document.querySelectorAll("main span");
 var contents = [
         '<figure class="clearfix">' +
             '<img src="./img/solar-power.jpg" alt="solar">' +
-            '<figcaption>Renewable energy resources exist over wide geographical areas, in contrast to other energy sources, which are concentrated in a limited number of countries. Rapid deployment of renewable energy and energy efficiency is resulting in significant energy security, climate change mitigation, and economic benefits</figcaption>' +
+            '<figcaption>Solar energy is radiant light and heat from the Sun that is harnessed using a range of ever-evolving technologies such as solar heating, photovoltaics, solar thermal energy, solar architecture, molten salt power plants and artificial photosynthesis.It is an important source of renewable energy and its technologies are broadly characterized as either passive solar or active solar depending on how they capture and distribute solar energy or convert it into solar power.</figcaption>' +
         '</figure>',
 
          '<figure class="clearfix">' +
             '<img src="./img/hydro-power.jpg" alt="hydro-plant">' +
-            '<figcaption>While many renewable energy projects are large-scale, renewable technologies are also suited to rural and remote areas and developing countries, where energy is often crucial in human development.</figcaption>' +
+            '<figcaption>Hydropower or water power is power derived from the energy of falling water or fast running water, which may be harnessed for useful purposes. Since ancient times, hydropower from many kinds of watermills has been used as a renewable energy source for irrigation and the operation of various mechanical devices, such as gristmills, sawmills, textile mills, trip hammers, dock cranes, domestic lifts, and ore mills. A trompe, which produces compressed air from falling water, is sometimes used to power other machinery at a distance.</figcaption>' +
         '</figure>',
 
         '<figure class="clearfix">' +
             '<img src="./img/wind-power.jpg" alt="wind">' +
-            '<figcaption>Renewable energy systems are rapidly becoming more efficient and cheaper. Their share of total energy consumption is increasing. Growth in consumption of coal and oil could end by 2020 due to increased uptake of renewables and natural gas.</figcaption>' +
+            '<figcaption>Wind power is the use of air flow through wind turbines to provide the mechanical power to turn electric generators. Wind power, as an alternative to burning fossil fuels, is plentiful, renewable, widely distributed, clean, produces no greenhouse gas emissions during operation, consumes no water, and uses little land.The net effects on the environment are far less problematic than those of nonrenewable power sources</figcaption>' +
         '</figure>'
     ];
 
