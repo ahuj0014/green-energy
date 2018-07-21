@@ -2,17 +2,17 @@ var buttons = document.querySelectorAll("main span");
 
 var contents = [
         '<figure class="clearfix">' +
-            '<img src="./img/slide-1.jpg" alt="hydro-plant">' +
+            '<img src="./img/solar-power.jpg" alt="solar">' +
             '<figcaption>Renewable energy resources exist over wide geographical areas, in contrast to other energy sources, which are concentrated in a limited number of countries. Rapid deployment of renewable energy and energy efficiency is resulting in significant energy security, climate change mitigation, and economic benefits</figcaption>' +
         '</figure>',
 
          '<figure class="clearfix">' +
-            '<img src="./img/slide-3.jpg" alt="hydro-plant">' +
+            '<img src="./img/hydro-power.jpg" alt="hydro-plant">' +
             '<figcaption>While many renewable energy projects are large-scale, renewable technologies are also suited to rural and remote areas and developing countries, where energy is often crucial in human development.</figcaption>' +
         '</figure>',
 
         '<figure class="clearfix">' +
-            '<img src="./img/wind-power.jpg" alt="hydro-plant">' +
+            '<img src="./img/wind-power.jpg" alt="wind">' +
             '<figcaption>Renewable energy systems are rapidly becoming more efficient and cheaper. Their share of total energy consumption is increasing. Growth in consumption of coal and oil could end by 2020 due to increased uptake of renewables and natural gas.</figcaption>' +
         '</figure>'
     ];
@@ -30,9 +30,9 @@ function handleClick(ev) {
         }
     }
 
-    if (ev.target.innerHTML === "Solution1") {
+    if (ev.target.innerHTML === "Solar") {
         container.innerHTML = contents[0];
-    } else if (ev.target.innerHTML === "Solution2") {
+    } else if (ev.target.innerHTML === "Hydro") {
         container.innerHTML = contents[1];
     } else {
         container.innerHTML = contents[2];
