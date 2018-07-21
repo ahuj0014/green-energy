@@ -5,7 +5,6 @@
 }
 
 body {
-    background-image: url(./img/slide-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -23,7 +22,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Markazi Text', sans-serif;
     font-size: 2rem;
 
 }
@@ -61,6 +60,14 @@ h2 {
     text-align: center;
     height: 15rem;
     overflow: hidden;
+}
+
+.active {
+    text-shadow: 1px 1px 3px #000;
+}
+
+#active {
+    text-shadow: 1px 1px 3px #000;
 }
 
 
@@ -104,11 +111,6 @@ main li:hover {
     box-shadow: 0 8px 16px white;
     cursor: pointer;
 }
-
-.active #active {
-    text-shadow: 1px 1px 3px #000;
-}
-
 
 footer ul {
     display: flex;
