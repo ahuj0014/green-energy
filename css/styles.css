@@ -1,0 +1,261 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    background: linear-gradient(to bottom, skyblue, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff;
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    display: block;
+    text-align: center;
+}
+
+.nav-bar li a {
+    display: block;
+    text-align: center;
+    background-color: #2FB0E8;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0 1px 0;
+}
+
+.nav-bar li a:hover {
+    font-size: 1.9rem;
+}
+
+
+
+.banner {
+    background: linear-gradient(to bottom, darkseagreen, white);
+    color: white;
+    text-align: center;
+    height: 15rem;
+    overflow: hidden;
+}
+
+.home,
+.contact,
+.blog {
+    width: 5rem;
+    padding: 1rem;
+}
+
+
+main {
+    padding-top: 1rem;
+}
+
+main ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+main figure {
+    margin: 1rem 0;
+}
+
+img {
+    width: 100%;
+}
+
+main li {
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    color: white;
+    background-color: #2fb0e8;
+    border: none;
+    float: left;
+}
+
+main span {
+    line-height: 5rem;
+    font-size: 1.2rem;
+}
+
+main li:hover {
+    box-shadow: 0 8px 16px white;
+    cursor: pointer;
+}
+
+.active #active {
+    text-shadow: 1px 1px 3px #000;
+}
+
+footer {
+    border-top: 5px solid #39FFE7;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer li {
+    box-sizing: border-box;
+    width: 10%;
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    float: left;
+}
+
+footer a {
+    color: #346DFF;
+}
+
+footer a:hover {
+    color: #2FB0E8;
+}
+
+.contact-info {
+    text-align: center;
+    clear: both;
+    padding: 1rem;
+}
+
+
+label {
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: darkblue;
+}
+
+@media screen and (min-width: 60rem) {
+    body {
+        font-size: 1.6rem;
+        text-align: left;
+        font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    }
+
+
+    .nav-bar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-bar li {
+        display: inline;
+        text-align: center;
+    }
+
+    .nav-bar li a {
+        display: inline-block;
+        text-align: center;
+        background-color: #2FB0E8;
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        margin: 0 0 1px 0;
+    }
+
+    .nav-bar li a:hover {
+        font-size: 1.9rem;
+    }
+
+
+    main ul {
+        width: 10%;
+        float: left;
+        display: inherit;
+    }
+
+    main li {
+        float: inherit;
+    }
+
+    main figure {
+        width: 90%;
+        float: right;
+    }
+
+    main figure img {
+        margin: 0 1rem 1rem 0;
+        width: 20rem;
+        float: left;
+    }
+
+    main figure figcaption {
+        float: left;
+        text-align: left;
+        width: 30rem;
+        line-height: 1.6rem;
+    }
+
+}
+
+@media screen and (min-width: 30rem) and (max-width: 60rem) {
+    body {
+        font-size: 1rem;
+        font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    }
+    h1 {
+        text-align: center;
+        font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+        font-size: 2rem;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+        font-size: 1rem;
+
+    }
+
+    main figure img {
+        margin: 0 1rem 1rem 0;
+        width: 15rem;
+        float: left;
+    }
+
+    main figure figcaption {
+        float: left;
+        margin-left: 2rem;
+        text-align: left;
+        width: 15rem;
+        line-height: 1.6rem;
+    }
+}
