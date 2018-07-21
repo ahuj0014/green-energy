@@ -5,25 +5,25 @@
 }
 
 body {
-    background: linear-gradient(to bottom, skyblue, white);
+    background-image: url(./img/slide-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-color: #fff;
-    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Markazi Text', sans-serif;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Markazi Text', sans-serif;
     font-size: 3rem;
 }
 
 h2 {
     text-align: center;
-    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 2rem;
 
 }
@@ -61,13 +61,6 @@ h2 {
     text-align: center;
     height: 15rem;
     overflow: hidden;
-}
-
-.home,
-.contact,
-.blog {
-    width: 5rem;
-    padding: 1rem;
 }
 
 
@@ -116,9 +109,6 @@ main li:hover {
     text-shadow: 1px 1px 3px #000;
 }
 
-footer {
-    border-top: 5px solid #39FFE7;
-}
 
 footer ul {
     display: flex;
@@ -137,23 +127,52 @@ footer li {
     float: left;
 }
 
-footer a {
-    color: #346DFF;
+.fa {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+
 }
 
-footer a:hover {
-    color: #2FB0E8;
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    background: steelblue;
+    color: white;
+    text-decoration: none;
+}
+
+
+.fa-pinterest {
+    background: #007bb5;
+    color: white;
+    text-decoration: none;
+    left: 10%;
 }
 
 .contact-info {
     text-align: center;
     clear: both;
     padding: 1rem;
-}
-
-
-label {
-    display: block;
 }
 
 
@@ -167,7 +186,7 @@ a {
     body {
         font-size: 1.6rem;
         text-align: left;
-        font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+        font-family: 'Markazi Text', sans-serif;
     }
 
 
@@ -230,17 +249,17 @@ a {
 @media screen and (min-width: 30rem) and (max-width: 60rem) {
     body {
         font-size: 1rem;
-        font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+        font-family: 'Markazi Text', sans-serif;
     }
     h1 {
         text-align: center;
-        font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+        font-family: 'Markazi Text', sans-serif;
         font-size: 2rem;
     }
 
     h2 {
         text-align: center;
-        font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+        font-family: 'Markazi Text', sans-serif;
         font-size: 1rem;
 
     }
